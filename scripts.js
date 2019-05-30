@@ -293,11 +293,11 @@ let shapes = function(p) {
 
         //cilinder
         //cilinder(radious, height, radiousREZ, heightREZ, topCap, bottomCap )
-        //p.cylinder(nw / 12, nh / 1.3, 50, 0, 0, 0);
+        p.cylinder(nw / 12, nh / 1.3, 50, 0, 0, 0);
         
         
         //ring
-        p.torus((nh+nw)/11,(nh+nw)/22, 100, 50);
+        //p.torus((nh+nw)/11,(nh+nw)/22, 100, 50);
         
         //sphere
         //p.sphere((nh+nw)/8, 50, 50);
