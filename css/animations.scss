@@ -1,0 +1,95 @@
+@keyframes showProject {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes post {
+    0% {
+        font-family: 'pix-5';
+    }
+
+    5% {
+        font-family: 'pix-4';
+    }
+
+    10% {
+        font-family: 'pix-3';
+    }
+
+    15% {
+        font-family: 'pix-2';
+    }
+
+    20% {
+        font-family: 'pix-1';
+    }
+
+    25% {
+        font-family: 'pix-regu';
+    }
+
+    30% {
+        font-family: 'pix-6';
+    }
+
+    35% {
+        font-family: 'pix-7';
+    }
+
+    40% {
+        font-family: 'pix-8';
+    }
+
+    45% {
+        font-family: 'pix-9';
+    }
+
+    50% {
+        font-family: 'pix-10';
+    }
+
+    55% {
+        font-family: 'pix-9';
+    }
+
+    60% {
+        font-family: 'pix-8';
+    }
+
+    65% {
+        font-family: 'pix-7';
+    }
+
+    70% {
+        font-family: 'pix-6';
+    }
+
+    75% {
+        font-family: 'pix-regu';
+    }
+
+    80% {
+        font-family: 'pix-1';
+    }
+
+    85% {
+        font-family: 'pix-2';
+    }
+
+    90% {
+        font-family: 'pix-3';
+    }
+
+    95% {
+        font-family: 'pix-4';
+    }
+
+    100% {
+        font-family: 'pix-5';
+    }
+}
