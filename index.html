@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="css/animations.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/media.css" />
-    <script src="p5/p5.min.js"></script>
-    <title>POST-ISM</title>
-  </head>
-  <body>
-    <div id="ensaio"></div>
-    <div id="wrapper">
-      <div id="list-wrapper"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="css/animations.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media.css" />
+  <script src="p5/p5.min.js"></script>
+  <title>POST-ISM</title>
+</head>
+
+<body>
+  <div id="ensaio"></div>
+  <div id="wrapper">
+    <div id="list-wrapper">
+
+
+      
+
+
     </div>
-    <div id="menu-wrapper" class="menu-section-wrapper">
-      <div id="menu-btn" class="menu-section-wrapper">
-        <div class="menu-item sec-open" id="proj-btn">PROJETOS</div>
-        <div class="menu-item" id="sobre-btn">SOBRE</div>
-        <div class="menu-item" id="expo-btn">EXPOSIÇÃO</div>
-      </div>
-      <div id="menu-lang" class="menu-section-wrapper">
-        <div class="menu-item" id="eng">ENG</div>
-        <div class="menu-item" id="slash">/</div>
-        <div class="menu-item sec-open" id="pt">PT</div>
-      </div>
+  </div>
+  <div id="menu-wrapper" class="menu-section-wrapper">
+    <div id="menu-btn" class="menu-section-wrapper">
+      <div class="menu-item sec-open" id="proj-btn">PROJETOS</div>
+      <div class="menu-item" id="sobre-btn">SOBRE</div>
+      <div class="menu-item" id="expo-btn">EXPOSIÇÃO</div>
     </div>
-    <div id="sobre-wrapper" class="section-wrapper"></div>
-    <div id="expo-wrapper" class="section-wrapper">
-      <div class="proj-gal" id="expo-gallery"></div>
+    <div id="menu-lang" class="menu-section-wrapper">
+      <div class="menu-item" id="eng">ENG</div>
+      <div class="menu-item" id="slash">/</div>
+      <div class="menu-item sec-open" id="pt">PT</div>
     </div>
-    <div id="project-wrapper" class="section-wrapper">
-      <div id="project-header">
-        <div id="land-title" class="list-item"></div>
-        <div id="x">X</div>
-      </div>
-      <div id="project-content">
-        <div id="cover">
-          <div id="cover-left">
-            <div id="project-titles">
-              <h1 id="project-title"></h1>
-              <h3 id="project-subtitle"></h3>
-            </div>
-            <div id="project-meta">
-              <p id="project-author"></p>
-              <div id="project-keywords"></div>
-            </div>
+  </div>
+  <div id="sobre-wrapper" class="section-wrapper"></div>
+  <div id="expo-wrapper" class="section-wrapper">
+    <div class="proj-gal" id="expo-gallery"></div>
+  </div>
+  <div id="project-wrapper" class="section-wrapper">
+    <div id="project-header">
+      <div id="land-title" class="list-item"></div>
+      <div id="x">X</div>
+    </div>
+    <div id="project-content">
+      <div id="cover">
+        <div id="cover-left">
+          <div id="project-titles">
+            <h1 id="project-title"></h1>
+            <h3 id="project-subtitle"></h3>
           </div>
-          <div id="cover-right">
-            <div id="inner-cover-right">
-              <div id="cover-img"></div>
-              <div id="cover-text-wrapper">
-                <div id="cover-text"></div>
-              </div>
+          <div id="project-meta">
+            <p id="project-author"></p>
+            <div id="project-keywords"></div>
+          </div>
+        </div>
+        <div id="cover-right">
+          <div id="inner-cover-right">
+            <div id="cover-img"></div>
+            <div id="cover-text-wrapper">
+              <div id="cover-text"></div>
             </div>
           </div>
         </div>
-        <div class="proj-gal" id="project-gallery"></div>
       </div>
+      <div class="proj-gal" id="project-gallery"></div>
     </div>
-  </body>
-  <script src="ensaio.js"></script>
-  <script src="script.js"></script>
+  </div>
+</body>
+<script src="ensaio.js"></script>
+<script src="script.js"></script>
+
 </html>

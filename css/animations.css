@@ -1,154 +1,158 @@
 @-webkit-keyframes showProject {
   0% {
-    -webkit-transform: translateY(0vh);
-            transform: translateY(0vh);
+    -webkit-transform: translateY(0vw);
+            transform: translateY(0vw);
   }
   100% {
-    -webkit-transform: translateY(100vh);
-            transform: translateY(100vh);
+    -webkit-transform: translateY(100vw);
+            transform: translateY(100vw);
   }
 }
 
 @keyframes showProject {
   0% {
-    -webkit-transform: translateY(0vh);
-            transform: translateY(0vh);
+    -webkit-transform: translateY(0vw);
+            transform: translateY(0vw);
   }
   100% {
-    -webkit-transform: translateY(100vh);
-            transform: translateY(100vh);
+    -webkit-transform: translateY(100vw);
+            transform: translateY(100vw);
   }
 }
 
-@-webkit-keyframes post {
+@-webkit-keyframes post-animation {
   0% {
-    font-family: 'pix-5';
-  }
-  5% {
-    font-family: 'pix-4';
-  }
-  10% {
-    font-family: 'pix-3';
-  }
-  15% {
-    font-family: 'pix-2';
-  }
-  20% {
-    font-family: 'pix-1';
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
   }
   25% {
-    font-family: 'pix-regu';
-  }
-  30% {
-    font-family: 'pix-6';
-  }
-  35% {
-    font-family: 'pix-7';
-  }
-  40% {
-    font-family: 'pix-8';
-  }
-  45% {
-    font-family: 'pix-9';
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
   }
   50% {
-    font-family: 'pix-10';
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
   }
-  55% {
-    font-family: 'pix-9';
-  }
-  60% {
-    font-family: 'pix-8';
-  }
-  65% {
-    font-family: 'pix-7';
-  }
-  70% {
-    font-family: 'pix-6';
-  }
-  75% {
-    font-family: 'pix-regu';
-  }
-  80% {
-    font-family: 'pix-1';
-  }
-  85% {
-    font-family: 'pix-2';
-  }
-  90% {
-    font-family: 'pix-3';
-  }
-  95% {
-    font-family: 'pix-4';
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
   }
   100% {
-    font-family: 'pix-5';
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
   }
 }
 
-@keyframes post {
+@keyframes post-animation {
   0% {
-    font-family: 'pix-5';
-  }
-  5% {
-    font-family: 'pix-4';
-  }
-  10% {
-    font-family: 'pix-3';
-  }
-  15% {
-    font-family: 'pix-2';
-  }
-  20% {
-    font-family: 'pix-1';
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
   }
   25% {
-    font-family: 'pix-regu';
-  }
-  30% {
-    font-family: 'pix-6';
-  }
-  35% {
-    font-family: 'pix-7';
-  }
-  40% {
-    font-family: 'pix-8';
-  }
-  45% {
-    font-family: 'pix-9';
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
   }
   50% {
-    font-family: 'pix-10';
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
   }
-  55% {
-    font-family: 'pix-9';
-  }
-  60% {
-    font-family: 'pix-8';
-  }
-  65% {
-    font-family: 'pix-7';
-  }
-  70% {
-    font-family: 'pix-6';
-  }
-  75% {
-    font-family: 'pix-regu';
-  }
-  80% {
-    font-family: 'pix-1';
-  }
-  85% {
-    font-family: 'pix-2';
-  }
-  90% {
-    font-family: 'pix-3';
-  }
-  95% {
-    font-family: 'pix-4';
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
   }
   100% {
-    font-family: 'pix-5';
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
   }
+}
+
+.move-1 > .post,
+.move-1 > .ism {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.move-2 > .post,
+.move-2 > .ism {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.move-3 > .post,
+.move-3 > .ism {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.move-4 > .post,
+.move-4 > .ism {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.move-5 > .post,
+.move-5 > .ism {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.move-6 > .post,
+.move-6 > .ism {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.move-7 > .post,
+.move-7 > .ism {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.move-8 > .post,
+.move-8 > .ism {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.move-9 > .post,
+.move-9 > .ism {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.move-10 > .post,
+.move-10 > .ism {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+.move-11 > .post,
+.move-11 > .ism {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.move-12 > .post,
+.move-12 > .ism {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+.move-13 > .post,
+.move-13 > .ism {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.move-14 > .post,
+.move-14 > .ism {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+
+.move-15 > .post,
+.move-15 > .ism {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
 }
 /*# sourceMappingURL=animations.css.map */
