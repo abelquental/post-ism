@@ -67,7 +67,8 @@ body {
 }
 
 .post {
-  margin-right: calc(calc(1.6vw + 2vh) * 0.3);
+  letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   margin-left: calc(calc(1.6vw + 2vh) * 0.5);
   -webkit-animation: post-animation-post 5.5s infinite steps(5, end) forwards;
           animation: post-animation-post 5.5s infinite steps(5, end) forwards;
@@ -347,6 +348,18 @@ body {
 .proj-gal img:nth-child(4n) {
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+/*  ////////////////////////////
+            EXPO DOC
+    ///////////////////////////
+*/
+#expo-gallery img {
+  display: none;
+}
+
+.wrapper-open #expo-gallery img {
+  display: block;
 }
 
 /*  ////////////////////////////

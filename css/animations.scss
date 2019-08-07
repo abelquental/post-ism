@@ -15,31 +15,31 @@ $font-size-list: calc(1.6vw + 2vh);
   0% {
     transform: skewX(-60deg);
     letter-spacing: calc(#{$font-size-list} * -0.1); 
-    margin-right: calc(#{$font-size-list} * -0.1);
+    margin-right: calc(#{$font-size-list} * 0.05);
   }
 
   25% {
     transform: skewX(0deg);
     letter-spacing: calc(#{$font-size-list} * -0.18);
-    margin-right: calc(#{$font-size-list} * 0.3); 
+    margin-right: calc(#{$font-size-list} * 0.45); 
   }
 
   50% {
     transform: skewX(60deg);
     letter-spacing: calc(#{$font-size-list} * -0.1);
-    margin-right: calc(#{$font-size-list} * -0.1); 
+    margin-right: calc(#{$font-size-list} * 0.05); 
   }
 
   75% {
     transform: skewX(0deg);
     letter-spacing: calc(#{$font-size-list} * -0.18); 
-    margin-right: calc(#{$font-size-list} * 0.3);
+    margin-right: calc(#{$font-size-list} * 0.45);
   }
 
   100% {
     transform: skewX(-60deg);
     letter-spacing: calc(#{$font-size-list} * -0.1); 
-    margin-right: calc(#{$font-size-list} * -0.1);
+    margin-right: calc(#{$font-size-list} * 0.05);
   }
 }
 

@@ -25,31 +25,31 @@
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
   25% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
-    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.45);
   }
   50% {
     -webkit-transform: skewX(60deg);
             transform: skewX(60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
   75% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
-    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.45);
   }
   100% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
 }
 
@@ -58,31 +58,31 @@
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
   25% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
-    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.45);
   }
   50% {
     -webkit-transform: skewX(60deg);
             transform: skewX(60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
   75% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
-    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.45);
   }
   100% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
-    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.05);
   }
 }
 

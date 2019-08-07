@@ -57,6 +57,8 @@ body {
 .listed-project {
   cursor: pointer;
   margin-top: calc(#{$font-size-list} * 0.063);
+  
+
 }
 
 .listed-project:hover {
@@ -75,7 +77,8 @@ body {
 
 
 .post {
-  margin-right: calc(#{$font-size-list} * 0.3);
+  letter-spacing: calc(#{$font-size-list} * -0.1); 
+  margin-right: calc(#{$font-size-list} * 0.05);
   margin-left: calc(#{$font-size-list} * 0.5);
   animation: post-animation-post 5.5s infinite steps(5, end) forwards;
 }
@@ -316,6 +319,29 @@ body {
   justify-self: center;
 }
 
+
+
+
+/*  ////////////////////////////
+            EXPO DOC
+    ///////////////////////////
+*/
+
+
+#expo-gallery img {
+  display: none;
+}
+
+.wrapper-open #expo-gallery img {
+  display: block;
+}
+
+
+
+
+
+
+
 /*  ////////////////////////////
             SOBRE
     ///////////////////////////
@@ -334,6 +360,17 @@ body {
   margin-left: -3.2vh;
   font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*  ////////////////////////////
             <a>, <p> style

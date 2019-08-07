@@ -87,7 +87,7 @@ function showList(data) {
   });
   setInterval(() => {
     if (!mOver) {
-      ww > 600 ? (list_wrapper.scrollTop += 2) : (list_wrapper.scrollTop += 0);
+      ww > 600 ? (list_wrapper.scrollTop += 0) : (list_wrapper.scrollTop += 0);
     }
   }, 30);
 }
