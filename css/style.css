@@ -15,12 +15,13 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: -10;
 }
 
 #wrapper {
   height: 100vh;
   max-height: 100vh;
+  width: 95vw;
   overflow: hidden;
   scrollbar-width: none;
 }
@@ -89,22 +90,25 @@ body {
   text-decoration: underline;
 }
 
-.wrapper-open {
-  -webkit-transform: translateX(-100vw);
-          transform: translateX(-100vw);
+.section-wrapper {
+  display: hidden;
   height: 100vh;
   width: 100vw;
-}
-
-.section-wrapper {
   top: 0;
   position: absolute;
-  left: 100vw;
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   overflow: scroll;
   scroll-behavior: smooth;
   z-index: 1;
+}
+
+.wrapper-open {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+  display: block;
 }
 
 #project-wrapper {
@@ -122,6 +126,7 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
+  width: 5vw;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
