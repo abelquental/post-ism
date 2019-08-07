@@ -71,12 +71,6 @@ async function getData() {
     }
   });
   list_wrapper.addEventListener('click', () => showProject(data));
-  for (let i = 1; i <= 16; i++) {
-    expo_gallery.insertAdjacentHTML(
-      'beforeend',
-      `<img src="img/expo${i}.jpg">`
-    );
-  }
 }
 
 // Show initial list
@@ -210,6 +204,13 @@ function openExpo() {
   list_wrapper.classList.add('list-closed');
   sobre_wrapper.classList.remove('wrapper-open');
   expo_wrapper.classList.add('wrapper-open');
+
+  for (let i = 1; i <= 16; i++) {
+    expo_gallery.insertAdjacentHTML(
+      'beforeend',
+      `<img src="img/expo${i}.jpg">`
+    );
+  }
 }
 function openSobre() {
   // btns

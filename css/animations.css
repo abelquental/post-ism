@@ -20,49 +20,135 @@
   }
 }
 
-@-webkit-keyframes post-animation {
+@-webkit-keyframes post-animation-post {
   0% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
   }
   25% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
   }
   50% {
     -webkit-transform: skewX(60deg);
             transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
   }
-  25% {
+  75% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
   }
   100% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
   }
 }
 
-@keyframes post-animation {
+@keyframes post-animation-post {
   0% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
   }
   25% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
   }
   50% {
     -webkit-transform: skewX(60deg);
             transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
   }
-  25% {
+  75% {
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-right: calc(calc(1.6vw + 2vh) * 0.3);
   }
   100% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-right: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+}
+
+@-webkit-keyframes post-animation-ism {
+  0% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
+  }
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.1);
+  }
+  50% {
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.1);
+  }
+  100% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
+  }
+}
+
+@keyframes post-animation-ism {
+  0% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
+  }
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.1);
+  }
+  50% {
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.1);
+  }
+  100% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+    margin-left: calc(calc(1.6vw + 2vh) * 0.5);
   }
 }
 

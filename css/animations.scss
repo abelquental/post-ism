@@ -1,3 +1,5 @@
+$font-size-list: calc(1.6vw + 2vh);
+
 @keyframes showProject {
   0% {
     transform: translateY(0vw);
@@ -8,26 +10,69 @@
   }
 }
 
-@keyframes post-animation {
+@keyframes post-animation-post {
 
   0% {
     transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+    margin-right: calc(#{$font-size-list} * -0.1);
   }
 
   25% {
     transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18);
+    margin-right: calc(#{$font-size-list} * 0.3); 
   }
 
   50% {
     transform: skewX(60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1);
+    margin-right: calc(#{$font-size-list} * -0.1); 
   }
 
-  25% {
+  75% {
     transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18); 
+    margin-right: calc(#{$font-size-list} * 0.3);
   }
 
   100% {
     transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+    margin-right: calc(#{$font-size-list} * -0.1);
+  }
+}
+
+@keyframes post-animation-ism {
+
+  0% {
+    transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+    margin-left: calc(#{$font-size-list} * 0.5);
+  }
+
+  25% {
+    transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18); 
+    margin-left: calc(#{$font-size-list} * 0.1);
+  }
+
+  50% {
+    transform: skewX(60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+    margin-left: calc(#{$font-size-list} * 0.5);
+  }
+
+  75% {
+    transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18); 
+    margin-left: calc(#{$font-size-list} * 0.1);
+  }
+
+  100% {
+    transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+    margin-left: calc(#{$font-size-list} * 0.5);
   }
 }
 
