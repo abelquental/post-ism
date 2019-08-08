@@ -210,7 +210,7 @@ function openExpo() {
   for (let i = 1; i <= 16; i++) {
     expo_gallery.insertAdjacentHTML(
       'beforeend',
-      `<img src="img/expo${i}.jpg">`
+      `<img class="img-gal" src="img/expo${i}.jpg">`
     );
   }
 }
