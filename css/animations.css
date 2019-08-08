@@ -40,6 +40,7 @@
     -webkit-transform: skewX(0deg);
             transform: skewX(0deg);
     letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+  }
   100% {
     -webkit-transform: skewX(-60deg);
             transform: skewX(-60deg);
