@@ -10,6 +10,35 @@ $font-size-list: calc(1.6vw + 2vh);
   }
 }
 
+@keyframes post-animation-post-ism {
+
+  0% {
+    transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+  
+  }
+
+  25% {
+    transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18);
+  }
+
+  50% {
+    transform: skewX(60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1);
+  }
+
+  75% {
+    transform: skewX(0deg);
+    letter-spacing: calc(#{$font-size-list} * -0.18); 
+  }
+
+  100% {
+    transform: skewX(-60deg);
+    letter-spacing: calc(#{$font-size-list} * -0.1); 
+  }
+}
+
 @keyframes post-animation-post {
 
   0% {

@@ -20,6 +20,61 @@
   }
 }
 
+@-webkit-keyframes post-animation-post-ism {
+  0% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+  }
+  50% {
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+  100% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+}
+
+@keyframes post-animation-post-ism {
+  0% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+  25% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+  }
+  50% {
+    -webkit-transform: skewX(60deg);
+            transform: skewX(60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.18);
+  }
+  100% {
+    -webkit-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    letter-spacing: calc(calc(1.6vw + 2vh) * -0.1);
+  }
+}
+
 @-webkit-keyframes post-animation-post {
   0% {
     -webkit-transform: skewX(-60deg);

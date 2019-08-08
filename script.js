@@ -87,7 +87,7 @@ function showList(data) {
   });
   setInterval(() => {
     if (!mOver) {
-      ww > 600 ? (list_wrapper.scrollTop += 0) : (list_wrapper.scrollTop += 0);
+      ww > 600 ? (list_wrapper.scrollTop += 1) : (list_wrapper.scrollTop += 0);
     }
   }, 30);
 }
@@ -116,6 +116,7 @@ function loadMore(data) {
 // PROJECT
 // Show
 function showProject(data) {
+  list_wrapper.classList.add('list-closed');
   const split_id = event.target.id.split('-');
   const item = data[Number(split_id[1])];
   project_content.scrollTop = 0;
@@ -173,6 +174,7 @@ function showProject(data) {
 }
 // Close
 function closeProj() {
+  list_wrapper.classList.remove('list-closed');
   project_wrapper.classList.remove('wrapper-open');
   // Reset project-wrapper content
   project_title.innerHTML = ' ';
@@ -224,7 +226,7 @@ function openSobre() {
 
   sobre_wrapper.innerHTML = ' ';
   let contentPt = `<div id="sobre-content">                
-      <h2><span class="post">POST-</span><span class="ism">ISM</span></h2><br>
+      <h2 class="post-ism">POST-ISM</h2><br>
       <h3>
           <span class="c4">Exposição / Projetos</span><br>
           Mestrado em Design de Comunicação<br>
@@ -236,7 +238,7 @@ function openSobre() {
 
 
       <div id="sobre-txt">
-          <p class="c2"><span class="c4">Post &ndash; ism</span><span class="c0">&nbsp;apresenta projetos desenvolvidos na disciplina de Projeto II do Mestrado em Design de Comunica&ccedil;&atilde;o (Belas-Artes, ULisboa) que abordam as formas de comunica&ccedil;&atilde;o, produ&ccedil;&atilde;o e dissemina&ccedil;&atilde;o de conhecimento atuais, evidenciando os </span><span class="c0 c1">ismos</span><span class="c0 c5">&nbsp;que emergem (a)p&oacute;s o impacto massivo dos sistemas digitais e da internet na cultura contempor&acirc;nea.</span></p><br><p class="c2 c3"><span class="c5 c0"></span></p><p class="c2"><span class="c0">Os projetos refletem o momento atual caracterizado pelo questionamento das ideologias e premissas que regem o conhecimento estabelecido, abordando os modos de a&ccedil;&atilde;o e comunica&ccedil;&atilde;o que o desestabilizam na era p&oacute;s-internet. Interrogam os pressupostos inerentes &agrave; inclus&atilde;o e exclus&atilde;o social, sob os </span><span class="c0 c1">ismos</span><span class="c0">&nbsp;do g&eacute;nero e da ra&ccedil;a, que condicionam a diversidade e representatividade cultural na academia e nos dom&iacute;nios da tecnologia e do design. Evidenciam a volatilidade do conhecimento sob o impacto da internet e consequentes paradigmas de incerteza, p&oacute;s-verdade, desinforma&ccedil;&atilde;o e manipula&ccedil;&atilde;o. Comentam ainda a soberania dos metadados e da ag&ecirc;ncia algor&iacute;tmica e o seu impacto na socializa&ccedil;&atilde;o, ao mesmo tempo que tiram partido da conflu&ecirc;ncia entre </span><span class="c0 c1">media</span><span class="c5 c0">&nbsp;para refletir sobre a forma como estas tecnologias moldam a nossa percep&ccedil;&atilde;o e experi&ecirc;ncia da realidade.</span></p><br>
+          <p class="c2"><span class="c4">Post&ndash;ism</span><span class="c0">&nbsp;apresenta projetos desenvolvidos na disciplina de Projeto II do Mestrado em Design de Comunica&ccedil;&atilde;o (Belas-Artes, ULisboa) que abordam as formas de comunica&ccedil;&atilde;o, produ&ccedil;&atilde;o e dissemina&ccedil;&atilde;o de conhecimento atuais, evidenciando os </span><span class="c0 c1">ismos</span><span class="c0 c5">&nbsp;que emergem (a)p&oacute;s o impacto massivo dos sistemas digitais e da internet na cultura contempor&acirc;nea.</span></p><br><p class="c2 c3"><span class="c5 c0"></span></p><p class="c2"><span class="c0">Os projetos refletem o momento atual caracterizado pelo questionamento das ideologias e premissas que regem o conhecimento estabelecido, abordando os modos de a&ccedil;&atilde;o e comunica&ccedil;&atilde;o que o desestabilizam na era p&oacute;s-internet. Interrogam os pressupostos inerentes &agrave; inclus&atilde;o e exclus&atilde;o social, sob os </span><span class="c0 c1">ismos</span><span class="c0">&nbsp;do g&eacute;nero e da ra&ccedil;a, que condicionam a diversidade e representatividade cultural na academia e nos dom&iacute;nios da tecnologia e do design. Evidenciam a volatilidade do conhecimento sob o impacto da internet e consequentes paradigmas de incerteza, p&oacute;s-verdade, desinforma&ccedil;&atilde;o e manipula&ccedil;&atilde;o. Comentam ainda a soberania dos metadados e da ag&ecirc;ncia algor&iacute;tmica e o seu impacto na socializa&ccedil;&atilde;o, ao mesmo tempo que tiram partido da conflu&ecirc;ncia entre </span><span class="c0 c1">media</span><span class="c5 c0">&nbsp;para refletir sobre a forma como estas tecnologias moldam a nossa percep&ccedil;&atilde;o e experi&ecirc;ncia da realidade.</span></p><br>
 
           <p>
                   <span class="c4">Exposição</span><br>
@@ -260,7 +262,7 @@ function openSobre() {
               (Laboratório II): Pedro Ângelo<br><br>
 
               <span class="c4">Website</span><br>
-              Abel Quental + Aldo Medina<br><br>
+              Abel Quental, Aldo Medina<br><br>
 
               <span class="c4">Design de Comunicação</span><br>
               Abel Quental<br>

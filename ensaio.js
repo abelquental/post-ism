@@ -53,7 +53,7 @@ function ensaio(data) {
             p.rotateZ(p.frameCount*0.002);
             
             // Shape
-            p.cylinder(shapeW, shapeH, 50, 0, 0, 0);
+            p.cylinder(shapeW, shapeH, 25, 0, 0, 0);
             p.pop()                                                     
         }                     
     }
